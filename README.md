@@ -19,7 +19,7 @@
 
 `` puer ``
 
-[参考puer]()
+[参考puer](https://github.com/leeluolee/puer)
 
 然后访问statichtml/introduction/index.html 查看结果。
 

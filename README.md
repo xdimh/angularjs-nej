@@ -22,16 +22,19 @@
 [参考puer]()
 
 然后访问statichtml/introduction/index.html 查看结果。
+
 ![打包前](http://7oxjbb.com1.z0.glb.clouddn.com/before-deploy.jpg)
 
 
 demo中的代码比较简单
+
 ![目录结构](http://7oxjbb.com1.z0.glb.clouddn.com/directory.jpg)
 
 js中是一些js文件，包括angular路由配置定义，模块定义，控制器定义，tpl目录下是一些ftl模板文件，modules下是一些页面片段html。
 
 ### 5.打包输出
-`` cd deploy `` 
+`` cd deploy ``
+
 `` nej-build release-admin.conf ``
 执行特定的打包配置文件针对admin项目进行打包。
 

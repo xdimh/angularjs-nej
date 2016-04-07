@@ -22,11 +22,11 @@
 [参考puer]()
 
 然后访问statichtml/introduction/index.html 查看结果。
-![打包前][http://7oxjbb.com1.z0.glb.clouddn.com/before-deploy.jpg]
+![打包前](http://7oxjbb.com1.z0.glb.clouddn.com/before-deploy.jpg)
 
 
 demo中的代码比较简单
-![目录结构][http://7oxjbb.com1.z0.glb.clouddn.com/directory.jpg]
+![目录结构](http://7oxjbb.com1.z0.glb.clouddn.com/directory.jpg)
 
 js中是一些js文件，包括angular路由配置定义，模块定义，控制器定义，tpl目录下是一些ftl模板文件，modules下是一些页面片段html。
 
@@ -59,4 +59,4 @@ DIR_STATIC         = ./src/admin/res/
 NEJ_DIR           = ./lib/nej/src
 ```
 打包配置文件中的一些配置，文件本身有比较详细的解释，打包配置主要是根据自己的项目进行路径的配置。DIR_SOURCE 指定html文件的输入目录，输出目录是./pub/ 其他类似，打包完后新的ftl为自己修改引用路径。打包完成后修改config.fmpp 中的ftl模板路径为打包后的路径，编译后在本地查看http://localhost:8000/statichtml/introduction/index.html
-![打包后][http://7oxjbb.com1.z0.glb.clouddn.com/after-deploy.jpg]
+![打包后](http://7oxjbb.com1.z0.glb.clouddn.com/after-deploy.jpg)

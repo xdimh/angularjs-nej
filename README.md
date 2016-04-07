@@ -36,7 +36,7 @@ js中是一些js文件，包括angular路由配置定义，模块定义，控制
 `` cd deploy ``
 
 `` nej-build release-admin.conf ``
-执行特定的打包配置文件针对admin项目进行打包。
+执行针对admin项目的打包配置文件进行打包。
 
 ```
 DIR_WEBROOT        = ../

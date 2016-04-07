@@ -1,0 +1,14 @@
+sourceRoot: tpl
+outputRoot: statichtml
+logFile: log.fmpp
+dataRoot: mock/
+modes: [
+   ignore(common/*)
+   execute(*.ftl)
+]
+freemarkerLinks: {
+    inc: 'tpl/common/'
+}
+replaceExtensions:[ftl,html]
+data: {tdd(test.tdd)}
+datetimeFormat : "yyyy-MM-dd HH:mm"

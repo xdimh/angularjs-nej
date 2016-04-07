@@ -1,0 +1,33 @@
+@import "./mass/index";
+@import "common/_reset.mcss";
+
+$padding-left = {
+  padding-left:20px;
+};
+
+h1 {
+  font-size:32px;
+  background-color: red;
+  $padding-left();
+}
+
+h2.tlt {
+  margin-top:20px;
+  font-size:28px;
+  $padding-left();
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  font-size:18px;
+  background-color: blue;
+  color:#fff;
+  $padding-left();
+}
+
+h5 {
+  font-size:32px;
+  $padding-left();
+  margin-top:20px;
+}

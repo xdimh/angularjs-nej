@@ -1,9 +1,9 @@
-<#include "/@inc/header.ftl" />
+<#include "../common/header.ftl" />
 <div class="content">
-    <#include "/@inc/sidebar.ftl" />
+    <#include "../common/sidebar.ftl" />
     <div ng-view></div>
 </div>
-<#include "/@inc/footer.ftl" />
+<#include "../common/footer.ftl" />
 <script type="text/javascript" src="/src/admin/js/introduction/bootstrap.js"></script>
 </body>
 </html>

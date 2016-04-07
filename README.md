@@ -1,6 +1,6 @@
 ## angularjs + NEJ.define + nej-build
 
-为了能够是项目能够在使用angularjs框架的基础上，使用nej打包工具进行打包，模块依赖管理就不能够使用requirejs而需要使用nej本身的NEJ.define 进行模块化依赖管理。根据这个需求写了个demo。按照下面步骤可以运行起来。
+为了能够使项目能够在使用angularjs框架的基础上，使用nej打包工具进行打包，模块依赖管理就不能够使用requirejs而需要使用nej本身的NEJ.define 进行模块化依赖管理。根据这个需求写了个demo。按照下面步骤可以运行起来。
 
 ### 1. 下载
 `` git clone https://github.com/xdimh/angularjs-nej ``

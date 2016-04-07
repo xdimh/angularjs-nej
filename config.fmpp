@@ -1,4 +1,4 @@
-sourceRoot: tpl
+sourceRoot: src/admin/tpl
 outputRoot: statichtml
 logFile: log.fmpp
 dataRoot: mock/
@@ -7,7 +7,7 @@ modes: [
    execute(*.ftl)
 ]
 freemarkerLinks: {
-    inc: 'tpl/common/'
+    inc: 'src/admin/tpl/common/'
 }
 replaceExtensions:[ftl,html]
 data: {tdd(test.tdd)}

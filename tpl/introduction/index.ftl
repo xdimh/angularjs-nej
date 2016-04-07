@@ -1,10 +1,10 @@
-<#include "/@inc/header.ftl" />
+<#include "../common/header.ftl" />
 <div class="content">
-<#include "/@inc/sidebar.ftl" />
+<#include "../common/sidebar.ftl" />
 <div ng-view></div>
 </div>
-<#include "/@inc/footer.ftl" />
-<script src="/cjs/core.js?3bd34da6041ea9485d84aa111e3ed60d"></script>
+<#include "../common/footer.ftl" />
+<script src="/cjs/core.js?5604b34c0c726fcab114bd208c52b5d8"></script>
 <script src="/cjs/pt_introduction_index.js?07616c62e027a2719eb918732ca634e8"></script>
 </body>
 </html>

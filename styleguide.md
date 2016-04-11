@@ -1,8 +1,4 @@
----
-title: 前端代码规范
-tags: angular 最佳实践,javascript 规范
-grammar_cjkRuby: true
----
+##前端代码规范 &　最佳实践
 
 ### Part1 javascript 
 #### 1. 文件编码统一采用UTF-8
